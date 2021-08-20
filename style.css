@@ -26,6 +26,7 @@ header img {
   display: inline-flex;
   font-family: 'Great Vibes', cursive;
   font-size: 32pt;
+  margin-top: 10px;
 }
 
 .subscript {
@@ -37,6 +38,7 @@ header img {
 .socialMedia {
   display: inline-flex;
   color: grey;
-  align-self: flex-end;
-  flex-direction: row;
+  justify-content: right;
+  float: right;
+  margin-top: 55px;
 }
