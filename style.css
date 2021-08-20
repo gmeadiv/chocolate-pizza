@@ -71,7 +71,7 @@ footer div p {
 
 #share {
   border: none;
-  background-color: palevioletred;
+  background-color: rgba(212, 39, 97, 0.699);
   color: aliceblue;
   height: 45px;
   padding-left: 20px;
@@ -107,8 +107,37 @@ footer div p {
   margin-left: 5px;
 }
 
+#hr hr {
+  border: 1px dotted rgba(121, 121, 121, 0.671);
+  margin: 0px;
+}
+
+#hr hr:nth-child(1) {
+  position: relative;
+  left: 1px;
+}
+#hr hr:nth-child(2) {
+  position: relative;
+  left: 2px;
+}
+#hr hr:nth-child(3) {
+  position: relative;
+  left: 3px;
+}
+#hr hr:nth-child(4) {
+  position: relative;
+  left: 4px;
+}
+#hr hr:nth-child(5) {
+  position: relative;
+  left: 5px;
+}
+
+
+
 body{
   width: 901px;
+  margin: auto;
 }
 h1 {
   font-family: sans-serif;
