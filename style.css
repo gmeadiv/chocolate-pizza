@@ -42,22 +42,38 @@ footer div p {
   border: none;
   background-color: palevioletred;
   color: aliceblue;
-  height: 40px;
-  padding-left: 30px;
-  padding-right: 30px;
+  height: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
   float: right;
+  width: 180px;
 }
 
 #venessa {
   display: flex;
+  margin-top: 30px;
 }
 
 #venessa h2 {
   width: 200px;
-  background-color: grey;
+  padding-left: 20px;
+  font-weight: bold;
+}
 
+#venessa p {
+  padding-top: 20px;
+  padding-left: 10px;
+  margin-left: 20px;
+  color: gray;
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+#venessa img {
+  height: 80px;
+  margin-left: 5px;
 }
 
 body{
