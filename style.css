@@ -3,6 +3,7 @@ header * {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
+  align-items: baseline;
 }
 
 header img {
@@ -12,18 +13,23 @@ header img {
 .forkKnifeLogo {
   display: inline-flex;
   height: 75px;
+  width: 69px;
 }
 
 .headerText {
   display: inline-flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  height: 75px;
+  position: relative;
+  bottom: 22px;
 }
 
 .delicious {
   display: flex;
   font-family: 'Great Vibes', cursive;
   font-size: 32pt;
+  position: relative;
+  bottom: 15px;
 }
 
 .subscript {
