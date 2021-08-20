@@ -1,33 +1,45 @@
-
 header * {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
 }
 
 header img {
-  display: flex;
-  order: 1;
-  align-self: flex-start;
+  display: inline-flex;
+}
+
+.forkKnifeLogo {
+  display: inline-flex;
+  height: 75px;
 }
 
 .headerText {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
-  order: 2;
+  flex-wrap: nowrap;
 }
 
 .delicious {
+  display: flex;
   font-family: 'Great Vibes', cursive;
-  font-size: 48pt;
+  font-size: 32pt;
 }
 
 .subscript {
+  display: flex;
   font-family: 'Alumni Sans', sans-serif;
+  font-size: 10pt;
 }
 
 .socialMedia {
-  display: flex;
+  display: inline-flex;
   color: grey;
+  justify-content: right;
+  float: right;
+  margin-top: 55px;
+}
+=======
   order: 3;
   align-self: flex-end;
 }
