@@ -1,0 +1,30 @@
+body{
+  width: 901px;
+}
+h1 {
+  font-family: sans-serif;
+  font-size:  33px;;
+  font-weight:bolder;
+}
+.div1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.chocopizza{
+  padding: 15px 0px 15px;
+}
+
+article{
+  font-size: 19px;
+}
+
+.step1{
+  padding: 15px 0px 15px;
+}
+.step2{
+  padding: 15px 0px 15px;
+}
+.step3{
+  padding: 15px 0px 15px;
+}
