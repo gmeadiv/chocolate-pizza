@@ -65,22 +65,36 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
+.date{
+  font-size: 15px;
+}
+.print{
+  font-size: 15px;
+  background-color: white;
+  border: none;
+}
 
 .chocopizza{
-  padding: 15px 0px 15px;
+  padding: 20px 0px 15px;
 }
 
 article{
-  font-size: 19px;
+  font-size: 19.5px;
 }
 
 .step1{
+  text-indent: 25px;
   padding: 15px 0px 15px;
 }
 .step2{
+  text-indent: 25px;
   padding: 15px 0px 15px;
 }
 .step3{
+  text-indent: 25px;
   padding: 15px 0px 15px;
 }
 
+.list{
+  padding: 20px 0px 15px;
+}
